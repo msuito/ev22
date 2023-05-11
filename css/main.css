@@ -1,0 +1,250 @@
+body{
+    background-image: url("../img/fondo.jpg");
+    Background-repeat:no-repeat;
+    Background-size:cover;
+    background-attachment: fixed;
+} 
+
+.mi-nav{
+  background-image: url('../img/barra.jpg');
+  background-repeat: repeat;
+  color: white;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.container{
+  background-image: url('../img/barra.jpg');
+  background-repeat: repeat;
+  top: 200px;
+  width: 50%;
+  color: white;
+  margin: 0 auto;
+  border-radius: 10px;
+
+}
+
+.mi-nav2{
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  color: white;
+  box-shadow: 0 0 10px #ccc;
+}
+
+
+.navbar.border-bottom {
+    border-bottom-width: 1px !important;
+    border-color: black !important;
+  }
+
+  .formulario-ingreso{
+    background-image: url('../img/barra.jpg');
+  background-repeat: repeat;
+    float: right;
+    position: fixed;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 30%;
+    height: 50%;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 10px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: white;
+  }
+  .formulario-registro{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border: 1px solid #ccc;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 10%;
+    box-shadow: 0 0 10px #ccc;
+    background-image: url('../img/barra.jpg');
+  background-repeat: repeat;
+    border-radius: 10px;
+    padding: 50px;
+    color: white;
+  }
+  
+  .datos-formulario{
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .ingreso-datos {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  .btn-ingreso {
+    background-color: black;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .btn-ingreso:hover {
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    color: black;
+  }
+
+  .contenedor-imagenes{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 60%;
+    height: 70%;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .col-4 {
+    flex: 0 0 auto;
+    width: 33.33333%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+
+  .contenedor-productos-p{
+    background:none;
+    height: 400px;
+    width: 800px;
+    margin-top: 50px;
+    padding: 20px;
+    color: white
+  }
+
+
+
+  .contenedor-inicio-p{
+    margin: auto;
+    width: 100%;
+    color: white;
+    padding-left: 600px;
+ 
+  }
+
+
+
+
+
+  
+
+  
+  .carousel {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+  }
+  
+  .carousel-item {
+    display: none;
+
+  }
+  
+  .carousel-item img {
+    height: 500px;
+    max-width: 750px;
+    margin-bottom: 100px;
+margin-left: auto;
+margin-right: auto;
+  }
+  
+ .carousel-control-prev{
+  background-color: rgba(0, 0, 0, 0.5); 
+  backdrop-filter: blur(10px); 
+  color: white; 
+ }
+
+ .carousel-control-next{
+  background-color: rgba(0, 0, 0, 0.5); 
+  backdrop-filter: blur(10px); 
+  color: white; 
+ }
+
+ .container-disp {
+  width: calc(25% - 5px);
+      padding: 100px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+   
+}
+
+.image-disp {
+  width: 100%;
+      height: auto;
+}
+
+.content-disp {
+  display: flex;
+      flex-direction: column;
+  text-align: center;
+      align-items: center;
+
+width: 100%;
+      height: 100%;
+      color: white;
+}
+
+.title-disp {
+  font-size: 30px;
+      font-weight: bold;
+
+      
+}
+
+.description-disp {
+  font-size: 20px;
+      font-weight: bold;
+ 
+}
+
+.button-disp {
+  display: block;
+      width: 50%;
+      text-align: center;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      padding: 5px;
+      margin-top: auto;
+      box-sizing: border-box;
+}
+
+.container-wrapper {
+  display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+}
