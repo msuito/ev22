@@ -11,7 +11,7 @@ $(document).ready(function () {
     
         $.get("https://api.open-meteo.com/v1/forecast?latitude="+position.coords.latitude+"&longitude="+position.coords.longitude+"&current_weather=true&hourly=temperature_2m,relativehumidity_2m,windspeed_10m", function(data){
             console.log(data);
-            $("#temperatura").html("Temperatura actual: "+data["current_weather"]["temperature"]+"°")
+            $("#temperatura").html("Temperatura actual: "+data["current_weather"]["temperature"]+"°");
             console.log(data["current_weather"]["temperature"]);
         });
     }
